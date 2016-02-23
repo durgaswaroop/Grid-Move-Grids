@@ -1,0 +1,57 @@
+[Groups]
+
+NumberOfGroups = 4
+
+[1]
+
+   ;Main left
+   TriggerTop    = [Monitor1Top]
+   TriggerBottom = [Monitor1Bottom]
+   TriggerLeft   = [Monitor1Left]
+   TriggerRight  = [Monitor1Left] + 5 * [Monitor1Width] / 8
+
+   GridTop    = [Monitor1Top]
+   GridBottom = [Monitor1Bottom]
+   GridLeft   = [Monitor1Left]
+   GridRight  = [Monitor1Left] + 5 * [Monitor1Width] / 8
+
+
+[2]
+
+   ;Righttop
+   TriggerTop    = [Monitor1Top]
+   TriggerBottom = [Monitor1Top] + [Monitor1Height]/3
+   TriggerLeft   = [Monitor1Left] + 5 * [Monitor1Width] / 8
+   TriggerRight  = [Monitor1Right]
+
+   GridTop    = [Monitor1Top]
+   GridBottom = [Monitor1Top] + [Monitor1Height]/3
+   GridLeft   = [Monitor1Left] + 5 * [Monitor1Width] / 8
+   GridRight  = [Monitor1Right]
+
+[3]
+
+   ;Rightmiddle
+   TriggerTop    = [Monitor1Top] + [Monitor1Height]/3
+   TriggerBottom = [Monitor1Top] + 2*[Monitor1Height]/3
+   TriggerLeft   = [Monitor1Left] + 5 * [Monitor1Width] / 8
+   TriggerRight  = [Monitor1Right]
+
+   GridTop    = [Monitor1Top] + [Monitor1Height]/3
+   GridBottom = [Monitor1Top] + 2*[Monitor1Height]/3
+   GridLeft   = [Monitor1Left] + 5 * [Monitor1Width] / 8
+   GridRight  = [Monitor1Right]
+
+
+[4]
+
+   ;Rightbottom
+   TriggerTop    = [Monitor1Top] + 2*[Monitor1Height]/3
+   TriggerBottom = [Monitor1Bottom]
+   TriggerLeft   = [Monitor1Left] + 5 * [Monitor1Width] / 8
+   TriggerRight  = [Monitor1Right]
+
+   GridTop    = [Monitor1Top] + 2*[Monitor1Height]/3
+   GridBottom = [Monitor1Bottom]
+   GridLeft   = [Monitor1Left] + 5 * [Monitor1Width] / 8
+   GridRight  = [Monitor1Right]
