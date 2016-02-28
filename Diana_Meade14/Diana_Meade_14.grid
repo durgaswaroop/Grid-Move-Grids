@@ -1,6 +1,6 @@
 [Groups]
 
-NumberOfGroups	= 16
+NumberOfGroups	= 17
 
 [1]
 
@@ -148,10 +148,10 @@ TriggerRight	= [Monitor1Left] + 150 + 175 + 175 + 150
 
 [13]
 
-TriggerTop		= [Monitor1Top] + 50
-TriggerBottom	= [Monitor1Top] + [Monitor1Height]/2 - 50
-TriggerLeft		= [Monitor1Left] + [Monitor1Width]/2 - 65
-TriggerRight	= [Monitor1Left] + [Monitor1Width]/2 + 65
+TriggerTop		= [Monitor1Top] + 40
+TriggerBottom	= [Monitor1Top] + [Monitor1Height]/2 - 40
+TriggerLeft		= [Monitor1Left] + 150 + 175 + 175 + 150
+TriggerRight	= [Monitor1Left] + [Monitor1Width]/2
 
 GridTop			= [Monitor1Top]
 GridBottom		= [Monitor1Top] + [Monitor1Height]/2
@@ -165,10 +165,10 @@ GridBottom		= [Monitor1Bottom]
 GridLeft		= [Monitor1Left]
 GridRight		= [Monitor1Left] + [Monitor1Width]/2
 
-TriggerTop		= [Monitor1Top] + [Monitor1Height]/2 + 50
-TriggerBottom	= [Monitor1Bottom] - 50
-TriggerLeft		= [Monitor1Left] + [Monitor1Width]/2 - 65
-TriggerRight	= [Monitor1Left] + [Monitor1Width]/2 + 65
+TriggerTop		= [Monitor1Top] + [Monitor1Height]/2 + 40
+TriggerBottom	= [Monitor1Bottom] - 40
+TriggerLeft		= [Monitor1Left] + 150 + 175 + 175 + 150
+TriggerRight	= [Monitor1Left] + [Monitor1Width]/2
 
 [15]
 
@@ -193,3 +193,15 @@ GridTop			= Restore
 GridBottom		= Restore
 GridLeft		= Restore
 GridRight		= Restore
+
+[17]
+
+TriggerTop		= [Monitor1Bottom] - 40
+TriggerBottom	= [Monitor1Bottom]
+TriggerLeft		= [Monitor1Left] + [Monitor1Width]/2 - 65
+TriggerRight	= [Monitor1Left] + [Monitor1Width]/2 + 65
+
+GridTop			=
+GridBottom		=
+GridLeft		=
+GridRight		=
