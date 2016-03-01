@@ -180,7 +180,7 @@ TriggerRight	=	[Monitor1Right] - 650
 GridTop			=	[Monitor1Top]
 GridBottom		=	[Monitor1Top] + [Monitor1Height]/2
 GridLeft		=	[Monitor1Left] + [Monitor1Width]/2
-GridRight		=	[Monitor1Right] - 650
+GridRight		=	[Monitor1Right]
 
 [16]
 
@@ -420,7 +420,7 @@ TriggerRight	=	[Monitor2Right] - 650
 GridTop			=	[Monitor2Top]
 GridBottom		=	[Monitor2Top] + [Monitor2Height]/2
 GridLeft		=	[Monitor2Left] + [Monitor2Width]/2
-GridRight		=	[Monitor2Right] - 650
+GridRight		=	[Monitor2Right]
 
 [36]
 
